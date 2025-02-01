@@ -2,22 +2,22 @@
 <testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-01T23:34:51 IST" name="Suite" finished-at="2025-02-01T23:35:19 IST" duration-ms="27703">
+  <suite started-at="2025-02-02T00:23:30 IST" name="Suite" finished-at="2025-02-02T00:24:03 IST" duration-ms="33174">
     <groups>
     </groups>
-    <test started-at="2025-02-01T23:34:51 IST" name="Test" finished-at="2025-02-01T23:35:19 IST" duration-ms="27703">
+    <test started-at="2025-02-02T00:23:30 IST" name="Test" finished-at="2025-02-02T00:24:03 IST" duration-ms="33174">
       <class name="Test_Cases.TC001_productSearch">
-        <test-method is-config="true" signature="LaunchUrl()[pri:0, instance:Test_Cases.TC001_productSearch@428640fa]" started-at="2025-02-01T23:34:51 IST" name="LaunchUrl" finished-at="2025-02-01T23:35:02 IST" duration-ms="10650" status="PASS">
+        <test-method is-config="true" signature="LaunchUrl()[pri:0, instance:Test_Cases.TC001_productSearch@428640fa]" started-at="2025-02-02T00:23:30 IST" name="LaunchUrl" finished-at="2025-02-02T00:23:44 IST" duration-ms="14165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchUrl -->
-        <test-method signature="TC001_productSearch_Test()[pri:0, instance:Test_Cases.TC001_productSearch@428640fa]" started-at="2025-02-01T23:35:02 IST" name="TC001_productSearch_Test" finished-at="2025-02-01T23:35:19 IST" duration-ms="16511" status="PASS">
+        <test-method signature="TC001_productSearch_Test()[pri:0, instance:Test_Cases.TC001_productSearch@428640fa]" started-at="2025-02-02T00:23:44 IST" name="TC001_productSearch_Test" finished-at="2025-02-02T00:24:02 IST" duration-ms="18317" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC001_productSearch_Test -->
       </class> <!-- Test_Cases.TC001_productSearch -->
       <class name="Test_Cases.TC002_productPage">
-        <test-method signature="TC002_productPage_Test()[pri:0, instance:Test_Cases.TC002_productPage@b9b00e0]" started-at="2025-02-01T23:35:19 IST" name="TC002_productPage_Test" finished-at="2025-02-01T23:35:19 IST" duration-ms="384" status="PASS">
+        <test-method signature="TC002_productPage_Test()[pri:0, instance:Test_Cases.TC002_productPage@b9b00e0]" started-at="2025-02-02T00:24:02 IST" name="TC002_productPage_Test" finished-at="2025-02-02T00:24:03 IST" duration-ms="455" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC002_productPage_Test -->
