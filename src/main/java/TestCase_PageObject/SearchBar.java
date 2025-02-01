@@ -18,20 +18,23 @@ public class SearchBar extends BaseTestClass {
 	@FindBy(xpath="//input[@placeholder='Search for Products, Brands and More']")
 	WebElement searchbox;
 	
-	@FindBy(xpath="//button[@aria-label='Search for Products, Brands and More']")
-	WebElement searchicon;
+	
+	@FindBy(xpath="(//li[@class='_3D0G9a'])[1]")
+	WebElement clickFromPopUpSearch;
 	
 	public void productSearch() throws InterruptedException
 	{
 		searchbox.sendKeys("Mobile");
-		Thread.sleep(3000);
+		Thread.sleep(6000);
 		
-		searchicon.click();
+		clickFromPopUpSearch.click();
 		Thread.sleep(3000);
 		
 	}
 	
-	@FindBy(xpath="//div[@data-id='MOBGYQ6BEZEUPFN6']")
+	
+	
+	@FindBy(xpath="(//div[@class='_4WELSP'])[1]")
 	WebElement productPage;
 	
 	public void productPage()

@@ -3,12 +3,18 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Test_Cases.TC003_addToCart">
+      <class name="Test_Cases.TC002_productPage">
         <methods>
           <include name="LaunchUrl"/>
-          <include name="TC003_addToCart_Test"/>
+          <include name="TC002_productPage_Test"/>
         </methods>
-      </class> <!-- Test_Cases.TC003_addToCart -->
+      </class> <!-- Test_Cases.TC002_productPage -->
+      <class name="Test_Cases.TC001_productSearch">
+        <methods>
+          <include name="TC001_productSearch_Test"/>
+          <include name="LaunchUrl"/>
+        </methods>
+      </class> <!-- Test_Cases.TC001_productSearch -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
